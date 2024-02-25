@@ -24,7 +24,7 @@ public class TV
     {
         this.marca=marca;
         this.estado=estado;
-        numTV++;
+        TV.numTV++;
     }
 
     //set y get para Marca
