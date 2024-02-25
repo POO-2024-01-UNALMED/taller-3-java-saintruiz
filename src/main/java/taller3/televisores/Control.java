@@ -6,7 +6,7 @@ public class Control
 
     public void enlazar(TV tv)
     {
-        this.tv=tv;
+        this.setTv(tv);
         this.tv.setControl(this);
     }
 
@@ -43,6 +43,8 @@ public class Control
     {
         tv.volumenDown();
     }
+
+    
     public void setCanal(int canal)
     {
         tv.setCanal(canal);

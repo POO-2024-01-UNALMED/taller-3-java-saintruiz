@@ -19,3 +19,6 @@ public class Marca
         this.nombre=nombre;
     }
 }
+
+
+//testCanal() FAILED,  testCanalEnlazar() FAILED, testVolumen() FAILED, testVolumenEnlazar() FAILED
